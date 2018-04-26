@@ -6,11 +6,14 @@
     <title>Psychic Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|IBM+Plex+Sans|Schoolbell" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 </head>
 
 <body>
+
+<div class="container jumbotron mt-lg-5">
     <div id="game">
-        <h1>Psychic Game</h1>
+        <h1 class="title">Psychic Game</h1>
         <p>Guess what letter I'm thinking of?</p>
         <hr>
         <p>Wins: <span id="numWins">0</span></p>
@@ -18,6 +21,7 @@
         <p>Guesses Left: <span id="left">10</span></p>
         <p>Your guesses so far: <span id="pastGuess">none</span></p>
     </div>
+</div>
 
 <script type="text/javascript">
 
